@@ -1,9 +1,6 @@
-from math import pi
-
-
-def circleArea(r):
+def rectangleArea(s):
     '''
-    This function will calculate the area of the circle where r is the radius of the circle.
-    PI*r^2
+    This function will calculate the area of the rectangle where s is the length of the rectangle.
+    s^2
     '''
-    return pi*r ^ 2
+    return s**2
